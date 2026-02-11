@@ -1,0 +1,48 @@
+1. Get 3 floating numbers from user like for eg a,b,c. Multiply a & b and then divide it by c. Print the result.
+
+package Assinment;
+
+import java.util.Scanner;
+
+public class Assinment {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+   Scanner sc = new Scanner(System.in);
+   System.out.println("Enter Value of a:");
+   float a = sc.nextFloat();
+   System.out.println("Enter Value of b:");
+   float b = sc.nextFloat();
+   System.out.println("Enter Value of c:");
+   float c = sc.nextFloat();
+   float result = (a*b)/c;
+   System.out.println("a*b/c" + result);
+   
+   
+	}
+
+}
+
+2. Compare 2 numbers using >= and <= operators. Print the result.
+
+package Samplep;
+
+import java.util.Scanner;
+
+public class Helloworld {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+				
+       System.out.println("Enter 1st Number :");
+    	   int x=sc.nextInt();
+       System.out.println("Enter 2st Number :");
+    	   int y=sc.nextInt();
+    	   System.out.println(" x>=y :"+(x>=y));
+    	   System.out.println(" x<=y :"+(x<=y));    	
+    	   
+	}
+}	
+
+
+
