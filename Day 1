@@ -1,0 +1,23 @@
+.How Java is Different from other Programming Language?
+
+    Java is High Level Language.Its Platform Independence Object Orient Based On Class. Java Virtual Machine Reads the .class Files.J ava is Secure and Strong Memory management,Its Mpstly Used in Web apps,Mobile Apps and Software.
+
+2.Explain About Public StaticnVoid Main (String[] arys) ?
+
+    Public  - Access
+    Static   - Keyword
+     void    - Return
+     main   - Start the progarm
+    String[] arys - Commands
+
+3.package Samplep;
+
+public class Helloworld {
+
+	public static void main(String[] args) {
+        System.out.println("***");
+        System.out.println("*****");
+        //System.out.print("Hello");
+      
+	}
+}	
