@@ -1,0 +1,8 @@
+1. Explain about class and object :
+ Class :
+      template for creating objects.Class to be creating in many Object.Class to created in some properties and method.that method only can be used.
+Object :
+      Object is an instance of a class.Each object has a unique identity.You access an object's methods using the dot (.) operator.
+
+
+     
