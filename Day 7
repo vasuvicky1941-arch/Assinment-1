@@ -1,0 +1,24 @@
+1.ABSTRACT METHOD :
+
+abstract class School{
+	abstract void takeattendance() ;
+	
+	void ringbell() {
+		System.out.println("Bell is Ring");
+	}
+}
+
+public class AbstractionSchool extends School {
+
+	public static void main(String[] args) {
+		AbstractionSchool child = new AbstractionSchool();
+		child.ringbell();
+        child.takeattendance();
+	}
+
+	@Override
+	void takeattendance() {
+			System.out.println("children playing cricket");
+		}
+		
+	}
