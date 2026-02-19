@@ -1,0 +1,11 @@
+1.  What is the difference between Error and Exception? Explain with examples
+Error:
+   During the Compliation phase,before the program can even run.this called in Syntax error.the compiler cannot understand.
+   Example : 
+    missing semicolons,incorrect method signature,mismatch data type,unhandle checked exception.
+
+Exception :
+    Runtime Exeuation of a program.unexception or expectional events that disrupt the normal flow of the program.
+  Example :
+    NullPointerExpection,ArrayindexoutboundExpection,IOExpection(Scanner),Arithmatic Expection.
+
