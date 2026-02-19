@@ -10,3 +10,17 @@ public class Assinment4 {
 		}	
 	}
 }
+2. Write a program using for-each loop to print characters from an array: 
+
+public class Character {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+char[] letters= {'A', 'B', 'C', 'D', 'E'};
+
+System.out.println("Character of Arrays");
+for(char ch:letters) {
+	System.out.println(ch+ " ");
+   }
+  }
+}
