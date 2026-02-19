@@ -7,7 +7,6 @@ abstract class School{
 		System.out.println("Bell is Ring");
 	}
 }
-
 public class AbstractionSchool extends School {
 
 	public static void main(String[] args) {
@@ -15,10 +14,39 @@ public class AbstractionSchool extends School {
 		child.ringbell();
         child.takeattendance();
 	}
-
 	@Override
 	void takeattendance() {
 			System.out.println("children playing cricket");
-		}
-		
+		}	
 	}
+
+2.Interface Method :
+
+public class Interfacevehicle implements Drive,ApplyBrake {
+
+	    public static void main(String[] args) {
+		Interfacevehicle person = new Interfacevehicle();
+		String print = person.print();
+		System.out.println(print);
+		person.speed();
+		person.happy();
+		person.stop();
+	}
+	@Override
+	public void speed() {
+		System.out.println("person drive in speed");	
+	}
+	@Override
+	public void happy() {
+		System.out.println("Happy to Driving");	
+	}
+	@Override
+	public void stop() {
+		System.out.println("Drive to Stop");
+	}
+	@Override
+	public String print() {
+		// TODO Auto-generated method stub
+		return "Vicky";
+	}
+}
