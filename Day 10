@@ -1,2 +1,41 @@
 1. How map differs from other collection interface? Explain with an example program.
 
+   Map is an Object that store in data in key values pair.unique keys associated in single value .it's part of java collection Frameworks.but does not extend to collection interface.
+you must used in concrete implementation to create map object.
+
+Sample Program :
+    
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Set;
+
+public class CollectionInterface {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+Map<Integer,String> map = new HashMap<Integer,String>();
+map.put(5, "Sample");
+
+System.out.println(map);
+Set<Integer> keys = map.keySet();
+	}
+}
+
+2. Explain the scenario like when to go with manual testing and automation testing :
+
+Automation Testing :
+       * To Run Faster
+       * Avoid Human Errors
+       * Avoid in Large Cost
+       * Repeat Test in Multiple Time
+       * Test in Multiple Browser
+Manual testing :
+       * Need Human Power
+       * Expence in Large Cost
+       * To Run Slower
+
+
+
+     
+
+
