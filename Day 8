@@ -1,11 +1,55 @@
-1.  What is the difference between Error and Exception? Explain with examples
-Error:
-   During the Compliation phase,before the program can even run.this called in Syntax error.the compiler cannot understand.
-   Example : 
-    missing semicolons,incorrect method signature,mismatch data type,unhandle checked exception.
+1. Create a List of Strings with student names and print it in sorted order
 
-Exception :
-    Runtime Exeuation of a program.unexception or expectional events that disrupt the normal flow of the program.
-  Example :
-    NullPointerExpection,ArrayindexoutboundExpection,IOExpection(Scanner),Arithmatic Expection.
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+
+public class collections1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+ List<String> student = new ArrayList<String>();
+    
+ student.add("Priya");
+ student.add("Kumar");
+ student.add("Mani");
+ student.add("Abi");
+ 
+ Collections.sort(student);
+ 
+ for (String students: student){
+	 System.out.println(students);
+	}
+ }
+}
+
+2. Create a Set of numbers and print the value  only when it is odd number
+
+import java.lang.reflect.Array;
+import java.util.HashSet;
+import java.util.Set;
+
+public class Collections2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+Set<Integer> number=new HashSet<Integer>();
+
+    number.add(1);
+    number.add(2);
+    number.add(3);
+    number.add(4);
+    number.add(5);
+    number.add(6);
+    number.add(7);
+    
+   System.out.println("ODD number is :");
+   for (int numbers:number) {
+	   if(numbers % 2 !=0) {
+		   System.out.println(numbers);
+	   }
+     } 
+	}
+   }
+
 
